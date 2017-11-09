@@ -23,4 +23,46 @@
 .byebug_history
 
 # Angular
-krigingCityMap/*
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/krigingCityMap/dist
+/krigingCityMap/tmp
+/krigingCityMap/out-tsc
+
+# dependencies
+/krigingCityMap/node_modules
+
+# IDEs and editors
+/krigingCityMap/.idea
+/krigingCityMap/.project
+/krigingCityMap/.classpath
+/krigingCityMap/.c9/
+/krigingCityMap/*.launch
+/krigingCityMap/.settings/
+/krigingCityMap/ *.sublime-workspace
+
+# IDE - VSCode
+/krigingCityMap/.vscode/*
+!/krigingCityMap/.vscode/settings.json
+!/krigingCityMap/.vscode/tasks.json
+!/krigingCityMap/.vscode/launch.json
+!/krigingCityMap/.vscode/extensions.json
+
+# misc
+/krigingCityMap/.sass-cache
+/krigingCityMap/connect.lock
+/krigingCityMap/coverage
+/krigingCityMap/libpeerconnection.log
+/krigingCityMap/npm-debug.log
+/krigingCityMap/testem.log
+/krigingCityMap/typings
+
+# e2e
+/krigingCityMap/e2e/*.js
+/krigingCityMap/e2e/*.map
+
+# System Files
+/krigingCityMap/.DS_Store
+/krigingCityMap/Thumbs.db
