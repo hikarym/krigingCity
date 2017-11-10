@@ -11,6 +11,9 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 
+# Use the PostgreSQL earthdistance extension with Active Record.
+gem 'activerecord-postgres-earthdistance'
+
 # Use PostgreSQL as the database for Active Record.
 gem 'pg', '~> 0.18'
 

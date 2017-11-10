@@ -69,3 +69,7 @@
 # System Files
 /krigingCityMap/.DS_Store
 /krigingCityMap/Thumbs.db
+
+# Generate DB
+/db/schema.rb
+Gemfile.lock
