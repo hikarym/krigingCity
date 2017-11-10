@@ -22,6 +22,9 @@
 
 .byebug_history
 
+# .idea
+/.idea/
+
 # Angular
 
 # See http://help.github.com/ignore-files/ for more about ignoring files.
