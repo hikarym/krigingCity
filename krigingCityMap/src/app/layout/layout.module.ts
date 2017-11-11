@@ -5,6 +5,8 @@ import { LayoutRoutingModule } from './layout-routing.module';
 import {HeaderModule} from './header/header.module';
 import {LayoutComponent} from './layout.component';
 import {HttpModule} from '@angular/http';
+import { MapComponent } from './map/map.component';
+import {MapModule} from './map/map.module';
 
 @NgModule({
   imports: [

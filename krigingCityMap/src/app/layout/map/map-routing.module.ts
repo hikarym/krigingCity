@@ -1,13 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {LayoutComponent} from './layout.component';
+import {MapComponent} from './map.component';
 
 const routes: Routes = [
   {
-    path: '', component: LayoutComponent,
-    children: [
-      {path: 'map', loadChildren: './map/map.module#MapModule'}
-    ]
+    path: '', component: MapComponent, data: {title: 'Avaliação das escolas'}
   }
 ];
 
@@ -15,4 +12,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class LayoutRoutingModule { }
+export class MapRoutingModule { }

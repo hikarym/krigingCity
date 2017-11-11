@@ -1,0 +1,28 @@
+<div>
+  <div class="row" class="map-container" >
+    <div class="col-lg-12" style="height: 100%">
+      <!--<div style="height: 100%;" leaflet [leafletOptions]="options2" [leafletLayers]="neighboringSchoolsLayer"></div>-->
+      <button *ngIf="schoolSelectedFlag"
+              style="position: absolute; z-index: 3000;
+              right:25px; top: 80px; width:35px"
+              (click)="toggleSchoolDetails()">
+        <i id="toggle-school-details-icon" class="fa fa-fw"></i>
+      </button>
+      <!-- button to display/hide the school details -->
+      <div id="mymap" leaflet style="height: 100%;"
+           [leafletBaseLayers] = "baseLayers"
+           [leafletZoom] = "zoom"
+           [leafletZoomOptions]="zoomOptions"
+           [leafletCenter] = "center"
+           [leafletLayers] = "neighboringSchoolsLayer"
+           [leafletLayersControlOptions] = "layersControlOptions"
+
+           [leafletMarkerCluster] = "markerClusterData"
+           [leafletMarkerClusterOptions] = "markerClusterOptions"
+           (leafletMarkerClusterReady) = "markerClusterReady($event)">
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -7,7 +7,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import {NotFoundModule} from './not-found/not-found.module';
 import { LayoutComponent } from './layout/layout.component';
 import {AppRoutingModule} from './app-routing.module';
-
+import {LeafletModule} from '@asymmetrik/ngx-leaflet';
+import {LeafletMarkerClusterModule} from '@asymmetrik/ngx-leaflet-markercluster';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import {AppRoutingModule} from './app-routing.module';
   imports: [
     AppRoutingModule,
     BrowserModule,
-    NotFoundModule
+    NotFoundModule,
+    LeafletModule.forRoot(),
+    LeafletMarkerClusterModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
