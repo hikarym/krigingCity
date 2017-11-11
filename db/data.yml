@@ -1,0 +1,13 @@
+
+schools:
+  identifier: 1
+  longitude: "-46.63851723074913"
+  latitude: "-23.54560817579755"
+  code: "esc1"
+  nomeesc: "desaparecidos 1"
+
+  identifier: 2
+  longitude: "-46.63837373256683"
+  latitude: "-23.545443429752037"
+  code: "esc2"
+  nomeesc: "desaparecidos 2"
