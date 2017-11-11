@@ -1,0 +1,136 @@
+.topnav {
+  border-radius: 0;
+  background-color: #222;
+  padding: 6px;
+  z-index: 2;
+}
+.topnav .text-center {
+  text-align: center;
+  padding-left: 0;
+  cursor: pointer;
+}
+.topnav .top-right-nav .buy-now a {
+  color: #999;
+}
+.topnav .top-right-nav .dropdown-menu {
+  top: 40px;
+  right: -5px;
+  left: auto;
+}
+.topnav .top-right-nav .dropdown-menu .message-preview .media .media-body .media-heading {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.topnav .top-right-nav .dropdown-menu .message-preview .media .media-body p {
+  margin: 0;
+}
+.topnav .top-right-nav .dropdown-menu .message-preview .media .media-body p.last {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.topnav .top-right-nav .dropdown-menu hr {
+  margin-top: 1px;
+  margin-bottom: 4px;
+}
+.messages {
+  width: 300px;
+}
+.messages .media {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+}
+.messages .media:last-child {
+  border-bottom: none;
+}
+.messages .media-body h5 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.messages .media-body .small {
+  margin: 0;
+}
+.messages .media-body .last {
+  font-size: 12px;
+  margin: 0;
+}
+.header .navbar {
+  background: #660066 !important;
+}
+
+/*.header{
+  flex:0 1 80px !important;
+  background:#ddd;
+}*/
+
+/* css - ng2-completer */
+
+ng2-completer {
+  width:100%;
+  font-size: 12px;
+}
+
+:host>>> .completer-holder {
+  width:100% !important;
+  max-height: 34px;
+}
+
+:host>>> .completer-input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: inherit;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+:host>>> .completer-dropdown-holder {
+  display: block;
+  width: 100%;
+  font-size: 10px;
+}
+:host>>> .completer-dropdown {
+  overflow-y: auto;
+  max-height: 300px;
+  overflow-x: hidden;
+  background-color: rgba(255,255,255,0.9)!important;
+  width: 100%!important;
+  position: relative!important;
+  margin-top: 0px!important;/*-16px*/
+  font-size: inherit;
+}
+
+:host>>> .completer-row {
+  margin-bottom: 2px!important;
+}
+
+:host>>> .completer-image-holder {
+  float: left!important;
+  width: 14px!important;/*10%*/
+}
+
+:host>>> .completer-item-text-image {
+  float: none!important;
+  width: 100%!important;/*90%*/
+  margin-left: 38px!important;
+}
+
+:host>>> .completer-description {
+  font-size: inherit!important;
+}
+
+:host>>> .completer-image-default {
+  width: 14px!important;
+  height: 14px!important;
+  /*background-image: url('../../../../assets/images/marcador_school_default.png');*/
+}
