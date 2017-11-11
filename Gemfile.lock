@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/rails/jbuilder.git
+  revision: fd5ff3ffab5e7fc3322e7156f4794e2e4867305f
+  branch: master
+  specs:
+    jbuilder (2.7.0)
+      activesupport (>= 4.2.0)
+      multi_json (>= 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -62,9 +71,8 @@ GEM
       activesupport (>= 4.2.0)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.7.0)
-      activesupport (>= 4.2.0)
-      multi_json (>= 1.2)
+    jbuilder-json_api (1.0.0)
+      jbuilder (~> 2)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -165,7 +173,8 @@ DEPENDENCIES
   activerecord-postgres-earthdistance
   byebug
   coffee-rails (~> 4.2)
-  jbuilder (~> 2.5)
+  jbuilder!
+  jbuilder-json_api
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
   puma (~> 3.7)
